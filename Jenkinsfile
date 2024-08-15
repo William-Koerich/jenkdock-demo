@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git(url: 'https://github.com/allebb/jenkdock-demo.git', branch: 'master')
+        git(url: 'https://github.com/William-Koerich/jenkdock-demo.git', branch: 'master')
       }
     }
 
